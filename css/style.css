@@ -818,12 +818,6 @@ ul.footer__social {
 
 
 
-
-
-
-
-
-
 @media (max-width: 1400px) {
   .magic__inner {
     padding: 50px 0px;
@@ -847,27 +841,6 @@ ul.footer__social {
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media (max-width: 1200px) {
   .about__inner {
     display: block;
@@ -875,7 +848,8 @@ ul.footer__social {
 
   .about__title,
   .team__title,
-  .pricing__title {
+  .pricing__title,
+  .connection__title {
     margin-bottom: 50px;
   }
 
@@ -884,7 +858,9 @@ ul.footer__social {
   .portfolio,
   .slider-blog,
   .team,
-  .pricing {
+  .pricing,
+  .clienst,
+  .connection {
     padding: 75px 0px;
   }
 
@@ -916,14 +892,7 @@ ul.footer__social {
     column-gap: 20px;
   }
 
-
 }
-
-
-
-
-
-
 
 @media (max-width: 992px) {
   .expertise__inner {
@@ -980,12 +949,33 @@ ul.footer__social {
     flex-direction: column;
     gap: 45px;
   }
+
+  .connection {
+    background-image: none;
+  }
+
+  .form {
+    max-width: 100%;
+  }
+
+  .footer__top {
+    padding: 75px;
+  }
+
+  .footer__logo {
+    margin-bottom: 40px;
+  }
+
+  ul.footer__social {
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+
+  .footer__social-list {
+    width: 33.33%;
+    margin-bottom: 25px;
+  }
 }
-
-
-
-
-
 
 @media (max-width: 768px) {
   .title {
@@ -1093,9 +1083,22 @@ ul.footer__social {
   .clienst__list li {
     margin-bottom: 25px;
   }
-
 }
 
+
+@media (max-width: 640px) {
+  .team__items {
+    display: block;
+  }
+
+  .team__item {
+    margin-bottom: 25px;
+  }
+
+  .team__item img {
+    margin: 0 auto;
+  }
+}
 
 @media (max-width: 440px) {
   .header__title {
@@ -1113,34 +1116,17 @@ ul.footer__social {
     line-height: 42px;
     font-size: 28px;
   }
-}
 
-
-
-
-
-
-
-@media (max-width: 640px) {
-  .team__items {
-    display: block;
-  }
-
-  .team__item {
-    margin-bottom: 25px;
-  }
-
-  .team__item img {
-    margin: 0 auto;
+  .footer__social-list {
+    width: 50%;
   }
 }
 
-
-
-
-
-
-
+@media (max-width: 481px) {
+  .form__btn {
+    width: 100%;
+  }
+}
 
 @media (max-width: 340px) {
   .expertise__item {
