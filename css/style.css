@@ -123,11 +123,13 @@ body {
 }
 
 
-/* .header__top {
-  position: sticky;
-  top: 0;
+.header__top {
+  position: fixed;
+  left: 0;
+  right: 0;
   background-color: #fff;
-} */
+  z-index: 9;
+}
 
 .header__top-inner {
   padding-bottom: 29px;
@@ -169,6 +171,7 @@ body {
 
 /* Header__content */
 .header__content {
+  padding-top: 100px;
   background-image: url('../images/bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
@@ -864,6 +867,10 @@ ul.footer__social {
     padding: 75px 0px;
   }
 
+  .header__top-inner {
+    padding-bottom: 5px;
+  }
+
   .about__text p {
     width: 100%;
   }
@@ -988,7 +995,7 @@ ul.footer__social {
     position: absolute;
     left: 0;
     right: 0;
-    top: 90px;
+    top: 76px;
     /* background: linear-gradient(137deg, rgba(255, 255, 255, 28) 0%, rgba(235, 125, 125, 0.12) 100%);
     backdrop-filter: blur(86px); */
     background-color: #fff;
